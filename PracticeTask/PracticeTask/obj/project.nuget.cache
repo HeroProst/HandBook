@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "QbTAZmKZDJA9TlzxH2VgZxv88u/3/QETs3C5en/ubI4JAA/2qCEQ0lwWZ6BWwkQCMySd4FA/clN8iGdQ5fleVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HeroProst\\source\\repos\\PracticeTask\\PracticeTask\\PracticeTask.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HeroProst\\.nuget\\packages\\fsharp.core\\6.0.0\\fsharp.core.6.0.0.nupkg.sha512",
+    "C:\\Users\\HeroProst\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\HeroProst\\.nuget\\packages\\npgsql\\7.0.1\\npgsql.7.0.1.nupkg.sha512",
+    "C:\\Users\\HeroProst\\.nuget\\packages\\npgsql.fsharp\\5.7.0\\npgsql.fsharp.5.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

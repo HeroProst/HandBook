@@ -1,0 +1,28 @@
+﻿@model IEnumerable<PracticeTask.DataBaseFolder.Employee>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+
+<table>
+    @foreach (var dep in (List<string>)ViewData["DepartmetList"])
+    {
+        <tr>
+            <th>@dep</th>
+            <th>Тел номер</th>
+            <th>№ кабинета</th>
+        </tr>
+        @foreach (var o in Model)
+        {
+            @if(o.Department.Name == dep)
+            {
+                <tr>
+                    <td>@o.Firstname</td>
+                    <td>@o.Secondname</td>
+                    <td>@o.Patronymic</td>
+                </tr>
+            }
+        }
+    }
+</table>
