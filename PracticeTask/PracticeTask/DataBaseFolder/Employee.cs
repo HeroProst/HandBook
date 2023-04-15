@@ -46,5 +46,22 @@ namespace PracticeTask.DataBaseFolder
 			return;
 
 		}
-	}
+
+        public static List<string> GetAllEmployeeName(IConfiguration server)
+        {
+            List<string> allDepartments = new List<string>();
+			string sql = $" SELECT td_employes.id,\r\n    td_employes.firstname,\r\n    td_employes.secondname,\r\n    td_employes.patronymic,\r\n    department.name AS departmentname,\r\n    cabinets.name AS cabinetname,\r\n    td_employes.phone\r\n   FROM td_employes\r\n     JOIN department ON td_employes.id_department = department.id\r\n     JOIN cabinets ON td_employes.id_cabinet = cabinets.id;";
+
+			DataBase db = new DataBase(sql, server);
+
+            if (db.data.HasRows)
+            {
+                while (db.data.Read())
+                {
+                    allDepartments.Add("id" + " " + db.data[0].ToString() + " " + db.data[1].ToString() + " " + db.data[2].ToString() + " " + db.data[3].ToString() + " Отдел: " + db.data[4].ToString() + " Кабинет: " + db.data[5].ToString() + " Телефон: " + db.data[6].ToString());
+                }
+            }
+            return allDepartments;
+        }
+    }
 }

@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace PracticeTask.View.Main
+namespace PracticeTask.Views.Main
 {
-    public class IndexModel : PageModel
+    public class AddDepartmentModel : PageModel
     {
         public void OnGet()
         {

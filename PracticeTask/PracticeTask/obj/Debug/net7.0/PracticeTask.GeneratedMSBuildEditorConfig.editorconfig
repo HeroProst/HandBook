@@ -40,8 +40,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HeroProst/source/repos/PracticeTask/PracticeTask/Views/Main/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxJbmRleC5jc2h0bWw=
+[C:/Users/HeroProst/source/repos/PracticeTask/PracticeTask/Views/Main/AddDepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZGREZXBhcnRtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HeroProst/source/repos/PracticeTask/PracticeTask/Views/Main/AddEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZGRFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HeroProst/source/repos/PracticeTask/PracticeTask/Views/Main/AuthorizationPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBdXRob3JpemF0aW9uUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HeroProst/source/repos/PracticeTask/PracticeTask/Views/Main/DeleteDepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxEZWxldGVEZXBhcnRtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HeroProst/source/repos/PracticeTask/PracticeTask/Views/Main/DeleteEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxEZWxldGVFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HeroProst/source/repos/PracticeTask/PracticeTask/Views/Main/EditDepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxFZGl0RGVwYXJ0bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HeroProst/source/repos/PracticeTask/PracticeTask/Views/Main/EditEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxFZGl0RW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HeroProst/source/repos/PracticeTask/PracticeTask/Views/Main/Report.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HeroProst/source/repos/PracticeTask/PracticeTask/Views/Main/SelectEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxTZWxlY3RFbXBsb3llZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/HeroProst/source/repos/PracticeTask/PracticeTask/Pages/Shared/_Layout.cshtml]
