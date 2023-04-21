@@ -11,8 +11,11 @@
 }
 else
 {
-    <label> Текущий пользователь : @(ViewData["CurrentUser"].ToString())</label>
+    <label> Текущий пользователь : @(ViewData["CurrentUser"].ToString()) </label>
 }
+<form action="" method="get">
+    <input value="Выйти из аккаунта" type="submit" formaction="AuthorizationPage" />
+</form>
 <br />
 <br />
 <table>
